@@ -1,4 +1,4 @@
-#Discord DnD bot
+# Discord DnD bot
 
 !h : **help**
 
