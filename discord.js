@@ -38,7 +38,7 @@ client.on('message', (message) => {
     let rolls = 1;
     let crit = null;
     //check if the command is correct
-    if(sides > 100){
+    if (sides > 100) {
       message.reply('sides cannot be greater than 100')
     }
     if (!isNaN(parseInt(messageSplit[1][0], 10)) && messageSplit[1].includes('d')) {
@@ -50,7 +50,7 @@ client.on('message', (message) => {
       // get the number of sides if the user didn't specify how many dice to roll
       sides = sides.slice(1);
     }
-    sides = parseInt(sides, 10); 
+    sides = parseInt(sides, 10);
     //return if the message isn't correct
     if (isNaN(sides) || isNaN(rolls)) {
       return;
