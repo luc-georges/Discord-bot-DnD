@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 require('dotenv').config()
-const rollDices = require('./method')
+const rollDices = require('./DiceModule')
 const client = new Discord.Client();
 
 client.on('ready', () => {
